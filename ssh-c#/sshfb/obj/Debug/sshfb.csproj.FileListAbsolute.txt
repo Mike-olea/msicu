@@ -7,3 +7,6 @@ C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.pdb
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\DiffieHellman.dll
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
+C:\Users\M1k3\Documents\GitHub\msicu\ssh-c#\sshfb\bin\Debug\sshfb.exe.config
+C:\Users\M1k3\Documents\GitHub\msicu\ssh-c#\sshfb\obj\Debug\sshfb.exe
+C:\Users\M1k3\Documents\GitHub\msicu\ssh-c#\sshfb\obj\Debug\sshfb.pdb

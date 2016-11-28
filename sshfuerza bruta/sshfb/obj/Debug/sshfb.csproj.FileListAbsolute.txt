@@ -7,12 +7,3 @@ C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\obj\Debug\sshfb.pdb
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\DiffieHellman.dll
 C:\Users\M1k3\Documents\Visual Studio 2015\Projects\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\sshfb.exe.config
-C:\Users\M1k3\Desktop\sshfb\sshfb\obj\Debug\sshfb.exe
-C:\Users\M1k3\Desktop\sshfb\sshfb\obj\Debug\sshfb.pdb
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\sshfb.exe
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\sshfb.pdb
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\DiffieHellman.dll
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\Org.Mentalis.Security.dll
-C:\Users\M1k3\Desktop\sshfb\sshfb\bin\Debug\Tamir.SharpSSH.dll
-C:\Users\M1k3\Desktop\sshfb\sshfb\obj\Debug\sshfb.csprojResolveAssemblyReference.cache
