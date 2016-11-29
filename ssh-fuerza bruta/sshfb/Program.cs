@@ -15,7 +15,7 @@ namespace sshfb
         {
             PrintVersoin();
             Console.WriteLine();
-            Console.WriteLine("1) Conectate a ssh con fuerza bruta.. mas burta que fuerza");
+            Console.WriteLine("1) Conectarse al servidor");
             Console.WriteLine();
 
         INPUT:
@@ -102,7 +102,7 @@ namespace sshfb
                     Console.Write("Connecting...");
 
                     sshShell.Connect();
-                    Console.WriteLine("OK " + pass);
+                    Console.WriteLine("Conectado con el pass: " + pass);
                     break;
 
                     /*
@@ -126,7 +126,7 @@ namespace sshfb
                 catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                    Console.WriteLine("OK " + pass);
+                    Console.WriteLine("No se pudo conectar con el password: " + pass);
                     //Console.ReadLine();
             }
         };
